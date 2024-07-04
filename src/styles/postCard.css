@@ -1,0 +1,56 @@
+.post-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .post-card .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .post-card .post-header .post-info h2 {
+    margin: 0;
+    color: #4267B2;
+  }
+  
+  .post-card .post-header .post-info p {
+    margin: 5px 0 0;
+    font-size: 12px;
+    color: #65676B;
+  }
+  
+  .post-card .post-header .post-actions button {
+    margin-left: 10px;
+  }
+  
+  .post-card .post-content {
+    margin-bottom: 15px;
+  }
+  
+  .post-card .post-interactions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .post-card .comment-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .post-card .comment-form input {
+    flex-grow: 1;
+  }
+  
+  .post-card .comments-section .comment {
+    background-color: #f0f2f5;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+  }

@@ -1,0 +1,29 @@
+.create-edit {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.create-edit h2 {
+  color: #4267B2;
+  margin-top: 0;
+}
+
+.create-edit form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-edit textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.create-edit .form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}

@@ -1,0 +1,33 @@
+.header {
+    background-color: #fff;
+    padding: 1rem;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  .profile_button{
+    font-weight: bold;
+  }
+  
